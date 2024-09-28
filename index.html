@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+      <link rel="icon" type="image/x-icon" href="./images/fav-icon.png">
+      <link rel="stylesheet" href="./css/bootstrap.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <script src="./js/bootstrap.js"></script>
+      <script src="./js/scroll.js"></script>
+      <script src="./js/gsap.js"></script>
+      <script src="./js/motion.js"></script>
+      <script src="./js/chart.js"></script>
+      <script src="./js/jquery.js"></script>
+      <script src="./js/script.js"></script>
+   </head>
+   <body>
+      <section class="bg-blue">
+         <div class="banner" id="semiCirclePath">
+            <div class="banner-rotation">
+            <div class="banner-cards">
+                  <div class="cards box-a">
+                     <div class="card-icon"><img src="./images/Group-45.png" alt="Qualified Doctors" /></div>
+                     <div class="card-title">Qualified Doctors</div>
+                     <div class="card-content">Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua.</div>
+                  </div>
+                  <div class="cards box-b">
+                     <div class="card-icon"><img src="./images/Group-48.png" alt="Qualified Doctors" /></div>
+                     <div class="card-title">Modern Equipment</div>
+                     <div class="card-content">Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua.</div>
+                  </div>
+                  <div class="cards box-c">
+                     <div class="card-icon"><img src="./images/Group-50.png" alt="Qualified Doctors" /></div>
+                     <div class="card-title">Emergency help</div>
+                     <div class="card-content">Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua.</div>
+                  </div>
+                  <div class="cards box-d">
+                     <div class="card-icon"><img src="./images/Group-52.png" alt="Qualified Doctors" /></div>
+                     <div class="card-title">Individual approach</div>
+                     <div class="card-content">Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua.</div>
+                  </div>
+            </div>
+            </div>
+            <div class="bottom-content">
+               <div class="container">
+                  <div class="banner-title">Our Speciality</div>
+                  <div class="banner-content">Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua. Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua. Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua. Individual Approach Lorem ipsum dolor sit elit con sector sed eiusmod tempor labore aliqua.</div>
+               </div>
+            </div>
+         </div>   
+      </section>
+      <section>
+         <div class="chart-section">
+            <div class="container chart-content">
+               <form>
+               <div class="select-box">
+                  <div class="users-list">
+                     <select class="form-select" id="userSelector">
+                        <option value="users">Users</option>
+                        <option value="orders">Orders</option>
+                        <option value="payments">Payments</option>
+                    </select>
+                  </div>
+                  <div class="date-list">
+                     <select class="form-select" id="dateSelector">
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                    </select>
+                  </div>
+               </div>
+              <canvas id="Chart"></canvas>
+            </form>
+            </div>
+          </div>
+      </section>
+      <svg style="display: none;">
+         <path id="semiCirclePath" d="M 50,500 A 250,250 0 0,1 450,500" fill="transparent" />
+     </svg>
+   </body>
+</html>
